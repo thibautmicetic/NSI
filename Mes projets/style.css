@@ -1,0 +1,172 @@
+html, body {
+	height: 100%;
+  }
+
+body {
+	height: 1150px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  }
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+
+
+.nav-container{
+    width: 100%;
+	height: auto;
+    background-color: black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
+.nav-list{
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	padding: 0;
+}
+
+.nav-link{
+	list-style-type: none;
+	color: white;
+	font-size: 0.85em;
+}
+
+.title{
+	font-size: 2.6em;
+	margin-top: 40px;
+}
+
+.box-project{
+	position: absolute;
+	top: 51.2px;
+	width: 100%;
+	height: auto;
+}
+
+.project-title{
+	text-align: center;
+	font-size: 2.6em;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.project-text{
+	text-align: center;
+	font-size: 1.9em;
+	margin-bottom: 40px;
+}
+
+.generation-title{
+	position: absolute;
+	top: 270px;
+	font-size: 2.6em;
+}
+
+.chtml{
+	width: 400px;
+	height: 590px;
+	background: black;
+}
+
+.ccss{
+	width: 400px;
+	height: 590px;
+	background: black;
+	align-items: flex-end;
+}
+
+.cjs{
+	width: 400px;
+	height: 590px;
+	background: black;
+}
+
+.low-page{
+	font-size: 1.2em;
+	width: 15%;
+	height: 10px;
+	position: absolute;
+	bottom: -300px;
+	align-items: center;
+}
+
+.box-makers{
+	position: absolute;
+	width: 250px;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	bottom: -290px;
+}
+
+.download-code{
+	position: absolute;
+	bottom: -180px;
+	font-size: 1.4em;
+}
+
+.download-code:hover{
+	text-decoration: underline;
+}
+
+
+.maker1{
+	color: black;
+}
+
+.makersepa{
+	color: black;
+}
+
+.maker2{
+	color: black;
+}
+
+.option-title{
+	font-size: 2.4em;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.all-options-box{
+	position: absolute;
+	top: 800px;
+	width: 60%;
+	text-align: center;
+}
+
+.first-option-sub-box{
+	display: flex;
+}
+
+.frame-rate-option-sub-sub-box{
+	display: block;
+}
+
+.background-color-sub-sub-box, .frame-rate-option-sub-sub-box, .figures2D-colors-option-sub-sub-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+
+.frame-rate-text, .background-color-text, .figure-color-text{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.2em;
+}
