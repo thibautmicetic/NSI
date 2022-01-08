@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Projet 2</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+			<ul class="nav-list">
+				<li><a href="#project" class="nav-link">Projet</a></li>
+				<li><a href="#generation" class="nav-link">Oeuvre</a></li>
+				<li><a href="#options" class="nav-link">Options</a></li>
+			</ul>
+        </nav>
+    </header>
+
+	<div class="box-project">
+		<h1 id="project" class="project-title">Notre projet</h1>
+		<p class="project-text">La première idée était de réaliser 
+			une oeuvre avec des figures aléatoires en 2D et en 3D. <br>
+		Puis nous voulions implémenter notre oeuvre dans site internet.</p>
+	</div>
+	
+	<h1 id="generation" class="generation-title">Génération de figures aléatoires</h1>
+
+	<div id="options" class="all-options-box">
+		<h1 class="option-title">Options</h1>
+			<div class="first-option-sub-box">
+					<div class="background-color-sub-sub-box">	
+						<button id="background-color-substract-button" class="less-option-button">-</button>
+						<p class="background-color-text">Couleur de fond</p>
+						<button id="background-color-add-btn" class="plus-option-button">+</button>
+					</div> 
+					<div class="frame-rate-option-sub-sub-box">
+						<button id="frame-rate-substract-btn" class="less-option-button">-</button>
+						<p class="frame-rate-text">Frame Rate</p>
+						<button id="frame-rate-add-btn" class="plus-option-button">+</button>
+					</div>
+					<div class="figures2D-colors-option-sub-sub-box">
+						<button id="figure-color-substract-btn" class="less-option-button">-</button>
+						<p class="figure-color-text">Couleur des figures en 2D</p>
+						<button id="figure-color-add-btn" class="plus-option-button">+</button>
+				</div>
+			</div>
+		</div>
+
+		<a class="download-code" href="Code.zip">Télécharger le code complet</a>
+		<div class="box-makers">
+			<p><a href="https://github.com/Ethaninho" target="_blank" class="maker1">Guilbaut Ethan</a></p>
+			<p class="makersepa">-</p>
+			<p><a href="https://github.com/thibautmicetic" target="_blank" class="maker2">Micetic Thibaut</a></p>
+		</div>
+		<div class="low-page"></div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+		
+</body>
+
+</html>
