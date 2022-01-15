@@ -1,5 +1,5 @@
 CREATE TABLE personne (
-    prenom TEXT PRIMARy KEY,
+    prenom TEXT PRIMARY KEY,
     nom TEXT,
     ville TEXT,
     age INTEGER
