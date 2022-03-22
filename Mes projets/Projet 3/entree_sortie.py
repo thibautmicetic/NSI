@@ -1,10 +1,20 @@
 # Créé par tmicetic, le 22/03/2022 en Python 3.7
 import random
-1, 2, 3, 4 = ligne, colonne, derniere_ligne, derniere_colonne
 
-
-def definir_entree_sorite(liste):
-    cote = random.randint(1, 4)
-    if cote == 1:
-        for i in range(len(cote)):
-            pass
+def definir_entree_sorite():
+    cote_entree = random.randint(1, 4)
+    cote_sortie = 0
+    if cote_entree == 1:
+        cote_sortie = 3
+    elif cote_entree == 2:
+        cote_sortie = 4
+    entree = random.randint(1, 15)
+    sortie = random.randint(1, 15)
+    if cote_entree == 1:
+        pass
+    elif cote_entree == 2:
+        pass
+    elif cote_entree == 3:
+        pass
+    elif cote_entree == 4:
+        pass
